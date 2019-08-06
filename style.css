@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
+
+body {
+  background-color: #232323;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.square {
+  background-color: purple;
+  width: 29%;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  float: left;
+  border-radius: 22%;
+  border: 2px inset white;
+  transition: background 0.6s;
+  -webkit-transition:  background 0.6s;
+  -moz-transition: color  background 0.6s;
+  -o-transition: color  background 0.6s;
+  -khtml-transition: color  background 0.6s;
+  transition: color 0.5s  background 0.6s;
+}
+
+#container-game {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+}
+
+h1 {
+  line-height: 1.1;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+  padding: 2px 2px;
+}
+
+.selected {
+  color: white;
+  background-color: rgb(90, 107, 115);
+}
+
+.buttonColor {
+  color: #232323;
+  -webkit-transition: color 1s ease-in-out;
+  -moz-transition: color 1s ease-in-out;
+  -o-transition: color 1s ease-in-out;
+  1tml-transition: color 1s ease-in-out;
+  transition: color 1s ease-in-out;
+}
+
+.container {
+    background-color: #232323;
+}
+
+#colorDisplay {
+  font-size: 150%;
+}
+
+button {
+  border: none;
+  background: none;
+  text-align: center;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: inherit;
+}
+
+button:focus {
+  outline:0;
+}
+
+button:hover {
+  border:2px solid rgb(90, 107, 115);
+  transition: all 0.2s;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: inherit;
+}
